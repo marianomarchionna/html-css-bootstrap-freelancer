@@ -7,11 +7,42 @@
 /* common */
 body {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;}
 /* fine common */
+
 /* header */
 header {
     height: 80px;
 }
 /* fine header */
+
+/* main */
+/* section jumbo */
+.jumbo {
+    height: 20%;
+}
+
+#jumbo-img {
+    width: 40%; 
+    height: 200px;
+}
+
+#title {
+    margin: 15px auto;
+    width: 70%;
+    height: 40px;
+}
+
+#star {
+    height: 10px; 
+    width: 150px; 
+    margin-bottom: 15px;
+}
+
+#jumbo-text {
+    width: 100%; 
+    height: 30px; 
+}
+/* section jumbo */
+/* fine main */
 
 /* debug */
 .debug header {
@@ -32,4 +63,24 @@ header {
 
 .debug #nav-link {
     background-color: yellow; 
+}
+
+.debug .jumbo {
+    background-color: #1abc9c;
+}
+
+.debug #jumbo-img {
+    background-color:black;
+}
+
+#title {
+    background-color: blue;
+}
+
+.debug #star {
+    background-color: purple;
+}
+
+.debug #jumbo-text {
+    background-color: green;
 }
