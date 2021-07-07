@@ -68,6 +68,15 @@ header {
     height: 200px;
 }
 /* fine section about */
+/* section contact me */
+.contact-me {
+    height: 400px;
+}
+
+.input {
+    height: 80px;
+}
+/* fine section contact me */
 /* fine main */
 
 /* debug */
@@ -133,4 +142,8 @@ header {
 
 .debug .about p {
     background-color: darkorange;
+}
+
+.debug .contact-me {
+    background: lightpink;
 }
