@@ -7,3 +7,29 @@
 /* common */
 body {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;}
 /* fine common */
+/* header */
+header {
+    height: 80px;
+}
+/* fine header */
+
+/* debug */
+.debug header {
+    background: #2c3e50;
+}
+
+.debug .container {
+    height: 100%;
+}
+
+.debug .row {
+    height: 100%;
+}
+
+.debug #logo {
+    background-color: red;
+}
+
+.debug #nav-link {
+    background-color: yellow; 
+}
