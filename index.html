@@ -123,25 +123,31 @@
         <!-- fine section about -->
         <!-- section contact me -->
         <section id="contact">
-            <div class="container text-center">
+            <div class="container text-center mt-5 mb-4">
                 <h2>CONTACT ME</h2>
-                <div id="star"></div>
+                <div class="color-darkgray  star">
+                    <i class="fas fa-star fs-5"></i>
+                </div>
                 <div class="contact-me text-start container-fluid">
-
-                    <div class="input mb-2 border border-dark">
-                            
-                    </div>
-                    <div class="input mb-2 border border-dark">
-                            
-                    </div>
-                    <div class="input mb-2 border border-dark">
-                            
-                    </div>
-                    <div class="input mb-2 border border-dark">
-                            
-                    </div>
-                    <button type="submit" class="btn bg-green">Send</button> 
-                
+                    <form>
+                        <div class="mb-3">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control ms_form" id="name" aria-describedby="textHelp">
+                        </div>
+                        <div class="mb-3">
+                          <label for="mail">Email Address</label>
+                          <input type="email" class="form-control ms_form" id="mail" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="tel">Phone Number</label>
+                            <input type="tel" class="form-control ms_form" id="tel" aria-describedby="telHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="text">Message</label>
+                            <textarea class="form-control ms_form" id="textarea" aria-describedby="textareaHelp" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn bg-green">Send</button>
+                    </form> 
                 </div>
             </div>  
         </section>
