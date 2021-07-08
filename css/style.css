@@ -53,7 +53,26 @@ body {
     margin-bottom: 30px;
     border-radius: 10px;
 }
-/* fine section portfolio */
+
+.overlay i {
+    font-size: 60px; 
+    color: black;
+}
+
+.overlay {
+    display: none;
+    top: 46%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.ms_portfolio-item:hover .overlay{
+    display: block;
+}
+
+.ms_portfolio-item:hover img {
+    opacity: 0.5;
+}
 /* fine main */
 
 /* footer */
