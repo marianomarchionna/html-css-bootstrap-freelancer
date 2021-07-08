@@ -25,9 +25,6 @@ body {
 /* fine common */
 
 /* header */
-header {
-    height: 80px;
-}
 /* fine header */
 
 /* main */
@@ -54,7 +51,6 @@ header {
 /* fine section jumbo */
 /* section portfolio */
 .square {
-    padding: 10px;
     height: 200px;
 }
 
